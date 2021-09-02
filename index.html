@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<link rel="stylesheet" href="darsanstyle.css">
 		<title>DarSan Styles</title>
 	</head>
 	<body>
@@ -18,9 +17,7 @@
 		<br>
 		<br>
 		<div class="text">
-			<p>
-				<h2>The Classic Collection</h2>
-			</p>
+			<h2>The Classic Collection</h2>
 		</div>
 
 		<li class="dropdown">
@@ -28,10 +25,10 @@
 			  <button class="dropbtn">Women</button>
 			  <div class="dropdown-content">
 			  <a href="sarees.html#">Sarees</a>
-			  <a href="#">Dresses</a>
-			  <a href="#">CropTop Lehengas</a>
-			  <a href="#">Night Wear</a>
-			  <a href="#">Ladies Accessories</a>
+			  <a href="dresses.html">Dresses</a>
+			  <a href="croptop lehengas.html">CropTop Lehengas</a>
+			  <a href="night wear.html">Night Wear</a>
+			  <a href="ladies accessories.html">Ladies Accessories</a>
 			  </div>
 			</div> 
 		</li>
@@ -40,11 +37,11 @@
 			<div class="dropdown">
 		  	<button class="dropbtn">Men</button>
 			  	<div class="dropdown-content">
-				  	<a href="#">Kurtas</a>
-				  	<a href="#">T-shirts</a>
-			  		<a href="#">Dhotis</a>
-			  		<a href="#">Shirts</a>
-			  		<a href="#">Zari Towels</a>
+				  	<a href="kurtas.html">Kurtas</a>
+				  	<a href="t-shirts.html">T-shirts</a>
+			  		<a href="dhotis.html">Dhotis</a>
+			  		<a href="shirts.html">Shirts</a>
+			  		<a href="zari towels.html">Zari Towels</a>
 		  		</div>
 			</div>
 		</li>
@@ -58,14 +55,14 @@
 		</li>
 		<li class="dropdown">
 			<div class="dropdown">
-			  <a href="#"><button class="dropbtn">Boys</button></a>
+			  <a href="boys.html"><button class="dropbtn">Boys</button></a>
 			  <div class="dropdown-content">  
 			  </div>
 			</div>
 		</li>
 		<li class="dropdown">
 			<div class="dropdown">
-			  <a href="#"><button class="dropbtn">Jewelry</button></a>
+			  <a href="jewelry.html"><button class="dropbtn">Jewelry</button></a>
 			  <div class="dropdown-content">
 			  </div>
 			</div>
@@ -73,7 +70,7 @@
 		<li class="dropdown">
 			<div class="dropdown-style">
 			<div class="dropdown">
-			 <a href="#"><button class="dropbtn">Pooja Accessories</button></a>
+			 <a href="pooja accessories.html"><button class="dropbtn">Pooja Accessories</button></a>
 			  <div class="dropdown-content">
 			  </div>
 			</div>
@@ -96,3 +93,223 @@
 		</div>
 	</body>
 </html>
+<style type="text/css">
+	
+	*{
+		box-sizing: border-box;
+	}
+	
+	h1{
+		font-family: Tahoma, sans-serif;
+		color: white;
+		margin-left: 25px;
+		padding-top: 10px;
+	}
+
+	h3{
+		font-family: Tahoma, sans-serif;
+		color: white;
+		margin-left: 30%;
+	}
+
+	p{
+		font-family: 'American Typewriter', sans-serif;                                        
+		font-size: 20px;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	h2{
+		font-family: 'Brush Script MT', cursive;
+		font-size: 50px;
+		color: black;
+		margin-left: 35%;
+	}
+
+	body{
+		background-image: url(darsan_background_pic1.jpg);
+		background-position: top;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-size: 100%;
+		
+	}
+
+
+/*containers*/
+
+	.container-2{
+		width: 550px;
+		height: 0px;
+	}
+
+/* end containers */
+
+/*site-nav*/
+
+	.site-nav{
+		margin-left: 62%;
+	}
+
+	.site-nav li{
+		list-style: none;
+		float: left;
+
+		margin-bottom: 15px;
+		margin-right: 5px;
+		margin-left: 5px;	
+	}
+
+	.site-nav a{
+		display: block;
+		text-decoration: none;
+		color: white;
+		padding: 10px 15px;
+		border: 3px solid white;
+	}
+
+	.site-nav a:hover{
+		background-color: white;
+		color: black;
+	}
+
+	.site-nav a:active{
+		background-color: white;
+		color: black;
+	}
+
+	.nav{
+		margin-left: 7px;
+	}
+
+/* end site-nav */
+
+/*The Classic Collection*/
+
+	.text{
+		background-color: white;
+		width: 100%;
+		height: 100%;
+	}
+
+/* end The Classic Collection */
+
+/* dropdown */
+	
+	.dropbtn {
+	  background-color: white;
+	  color: black;
+	  min-width: 150px;
+	  min-height: 30px;
+	  font-size: 16px;
+	  border: none;
+	}
+
+	.dropdown {
+	  position: relative;
+	  display: inline-block;
+	  margin-left: 10px;
+	  padding-top: 0%;
+	}
+
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: white;
+	  min-width: 175px;
+	  z-index: 1;
+	}
+
+	.dropdown-content a {
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	  margin-left: 5%;
+	  background-color: skyblue;
+	}
+
+	.dropdown-content a:hover {
+		background-color: orange;
+		color: white;
+	}
+
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	}
+
+/* end drpdown */
+
+/* product show */
+
+	.products{
+		margin-left: 0.5%;
+		margin-top: 2%;
+		width: 90%;
+		padding-bottom: 3%;
+		padding-top: 0.011%;
+		color: white;
+		background-color: rgba(0, 0, 0, 0.6);
+	}
+
+	.container-3{
+			display: grid;
+			grid-template-columns: repeat(3, 400px);
+			grid-gap: 10px;
+			height: 400vh;
+			width: auto;
+		}
+	.container-3 img{
+		width: 400px;
+		height: 400px;
+	}
+
+	#lightbox{
+		position: fixed;
+		z-index: 1000;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		background: rgb(0, 0, 0, .8);
+		display: none;
+	}
+
+	#lightbox.active{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#lightbox img{
+		max-width: 90%;
+		max-height: 90%;
+		padding: 4px;
+		background-color: black;
+		border: 2px solid white;
+	}
+
+
+	.banner-description{
+		position: absolute;
+		bottom: 2px;
+		left: 2px;
+		color: white;
+		background-color: rgba(0, 0, 0, .65);
+		width: 104%;
+		height: 58px;
+		font-size: 13px;
+	}
+
+
+	.img-dis{
+		position: relative;
+		margin-left: 20px;
+
+	}
+
+	.img-dis img{
+		display: block;
+	}
+/* end product show */
+
+</style>
